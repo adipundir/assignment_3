@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+           
+                <form action="https://enw7u145b8im9.x.pipedream.net/" method="POST">
+                    <h2>Survey</h2>
+                    <!-- for Name -->
+                    <h3>Name</h3>
+                    <div>
+                        <input required type="text" placeholder="First Name" name="first_name">
+                        <input required type="text" placeholder="Last Name" name="last_name">
+                    </div>
+
+                     <!-- for address -->
+
+                     <h3>Address</h3>
+                     
+                    <div>
+                        <input required type="text" placeholder="Street" name="street_address">
+                        <input required type="text" placeholder="City" name="city">
+                    </div>
+
+                    <div>
+                        <input required type="text" placeholder="Pincode" pattern="[0-9]{6}" title="Please Enter a valid Pincode" name="pincode">
+                        <input required type="text" placeholder="State" name="state">
+                    </div>
+                   
+
+                    <!-- contact number -->
+
+                    <h3>Contact Details</h3>
+
+                    <div class="contact">
+                        <input required type="text" placeholder="Contact Number" pattern="[0-9]{10}" title="Please Enter a valid Contact Number" name="contact_number">
+                    </div>
+
+                    <!-- for rating -->
+
+                    <h3 id="rate">Rate your Experience</h3>
+                    <div class="Rating">
+                        <h4>Quality Of Product Received</h4>
+                        <label for="quality_of_products_received_rating"><input required type="radio" name="quality_of_products_received_rating" value="Excellent">Excellent</label>
+                        <label for="quality_of_products_received_rating"><input required type="radio" name="quality_of_products_received_rating" value="Good">Good</label>
+                        <label for="quality_of_products_received_rating"><input required type="radio" name="quality_of_products_received_rating" value="Bad">Bad</label>
+                    </div> 
+
+                    <div class="Rating">
+                        <h4>Delivery</h4>
+                        <label for="delivery_rating"><input required type="radio" name="delivery_rating" value="Excellent">Excellent</label>
+                        <label for="delivery_rating"><input required type="radio" name="delivery_rating" value="Good">Good</label>
+                        <label for="delivery_rating"><input required type="radio" name="delivery_rating" value="Bad">Bad</label>
+                    </div>
+
+                    <div class="Rating">
+                        <h4>Value for Money</h4>
+                        <label for="value_for_money_rating"><input required type="radio" name="value_for_money_rating" value="Excellent">Excellent</label>
+                        <label for="value_for_money_rating"><input required type="radio" name="value_for_money_rating" value="Good">Good</label>
+                        <label for="value_for_money_rating"><input required type="radio" name="value_for_money_rating" value="Bad">Bad</label>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" name="Submit" value="Submit">
+                    </div>
+
+                        
+                    
+                </form>
+        </div>
+    </div>
+</body>
+</html>
