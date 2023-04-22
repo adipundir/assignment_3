@@ -10,6 +10,7 @@ h2{
 h3{
     text-align: left;
     margin: 5px 30px;
+    letter-spacing: 0.5px;
     font-family: 'Bebas Neue', cursive;}
 
 h4{
@@ -67,5 +68,14 @@ body {
 
 .submit{
 
-    margin: 12px 15px;
+    margin: 15px 15px;
+    text-align: center;
+   
+}
+#submit{
+    background-color: transparent;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 21px;
+    border: 1px solid black;
+
 }
